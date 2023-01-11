@@ -1,0 +1,155 @@
+body
+{
+    background-color: black;
+}
+
+.main-div
+{   
+    border: 2px solid orange;
+    margin-top: 100px;
+    margin-left: 100px;
+    min-height: 304px;
+    width: 200px;
+    height: auto;
+}
+
+.display
+{
+    border: 1px solid orange;
+    text-align: right;
+    font: bold;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    color: white;    
+    min-height: 50px;
+    max-height: fit-content;    
+    height: fit-content;
+    overflow-y: scroll;
+}
+
+.first-row
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: auto;
+}
+
+.num-row
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: auto;
+}
+
+.last-row
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: auto; 
+}
+
+.all-clear
+{
+    width: 73px;
+    height: 49px;
+    text-align:center;
+    border: 1px solid orange;
+    background-color: black;
+    font-size: x-large;
+    color: orange;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.all-clear:hover
+{
+    background-color: greenyellow;
+    font: bold;
+    color: black;
+}
+
+.backspace
+{
+    width: 73px;
+    height: 49px;
+    text-align: center;
+    border: 1px solid orange;
+    background-color: black;
+    font: bold;
+    font-size: xx-large;
+    color: orange;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.backspace:hover
+{
+    background-color: orange;
+    font: bold;
+    color: black;
+    opacity: 0.9;
+}
+
+.operation
+{
+    width: 49px;
+    height: 49px;
+    border: 1px solid orange;
+    text-align: center;
+    color: orange;
+    font-size: x-large;
+    font-weight: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.operation:hover
+{
+    background-color: orange;
+    font: bold;
+    color: black;
+    opacity: 0.9;
+}
+
+.numbers
+{
+    width: 48px;
+    height: 49px;
+    border: 1px solid orange;
+    text-align: center;
+    color: orange;
+    font-size: x-large;
+    font-weight: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.numbers:hover
+{
+    background-color: orange;
+    font: bold;
+    color: black;
+    opacity: 0.9;
+}
+
+.equals
+{
+    width: 99px;
+    height: 49px;
+    border: 1px solid orange;
+    text-align: center;
+    color: orange;
+    font-size: x-large;
+    font-weight: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.equals:hover
+{
+
+    background-color: greenyellow;
+    font: bold;
+    color: black;
+}

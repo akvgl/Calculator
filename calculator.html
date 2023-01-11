@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My calculator</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <div class="main-div" id="main-div">
+        <div class="display" id="display">display</div>
+
+        <div class="first-row">
+            <div class="all-clear" onclick="clearAll()">AC</div>
+            <div class="backspace" onclick="backspace()">&lArr;</div>
+            <div class="operation" onclick="addToDisplay('*')">&times;</div>
+        </div>        
+        <div class="num-row">
+            <div class="numbers" onclick="addToDisplay('1')">1</div>
+            <div class="numbers" onclick="addToDisplay('2')">2</div>
+            <div class="numbers" onclick="addToDisplay('3')">3</div>
+            <div class="operation" onclick="addToDisplay('/')">&divide;</div>
+            <div class="numbers" onclick="addToDisplay('4')">4</div>
+            <div class="numbers" onclick="addToDisplay('5')">5</div>
+            <div class="numbers" onclick="addToDisplay('6')">6</div>
+            <div class="operation" onclick="addToDisplay('+')">&plus;</div>
+            <div class="numbers" onclick="addToDisplay('7')">7</div>
+            <div class="numbers" onclick="addToDisplay('8')">8</div>
+            <div class="numbers" onclick="addToDisplay('9')">9</div>
+            <div class="operation" onclick="addToDisplay('-')">&minus;</div>
+        </div>
+        <div class="last-row">
+            <div class="numbers" onclick="addToDisplay('.')">&dot;</div>
+            <div class="numbers" onclick="addToDisplay('0')">0</div>
+            <div class="equals" onclick="calculate()">&equals;</div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
